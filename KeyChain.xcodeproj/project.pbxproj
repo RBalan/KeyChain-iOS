@@ -20,6 +20,8 @@
 		3FA4A3D5185F0AD50074421B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FA4A3D3185F0AD50074421B /* InfoPlist.strings */; };
 		3FA4A3D7185F0AD50074421B /* KeyChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA4A3D6185F0AD50074421B /* KeyChainTests.m */; };
 		3FA4A3E2185F0ED40074421B /* PasswordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA4A3E1185F0ED40074421B /* PasswordListViewController.m */; };
+		3FA4A3E5185F11190074421B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA4A3E4185F11190074421B /* MasterViewController.m */; };
+		3FA4A3E7185F13D30074421B /* cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA4A3E6185F13D30074421B /* cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		3FA4A3D6185F0AD50074421B /* KeyChainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChainTests.m; sourceTree = "<group>"; };
 		3FA4A3E0185F0ED40074421B /* PasswordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordListViewController.h; sourceTree = "<group>"; };
 		3FA4A3E1185F0ED40074421B /* PasswordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordListViewController.m; sourceTree = "<group>"; };
+		3FA4A3E3185F11190074421B /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3FA4A3E4185F11190074421B /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3FA4A3E6185F13D30074421B /* cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +117,11 @@
 			children = (
 				3FA4A3C0185F0AD50074421B /* AppDelegate.h */,
 				3FA4A3C1185F0AD50074421B /* AppDelegate.m */,
+				3FA4A3E3185F11190074421B /* MasterViewController.h */,
+				3FA4A3E4185F11190074421B /* MasterViewController.m */,
 				3FA4A3E0185F0ED40074421B /* PasswordListViewController.h */,
 				3FA4A3E1185F0ED40074421B /* PasswordListViewController.m */,
+				3FA4A3E6185F13D30074421B /* cell.xib */,
 				3FA4A3C3185F0AD50074421B /* Images.xcassets */,
 				3FA4A3B8185F0AD50074421B /* Supporting Files */,
 			);
@@ -224,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA4A3E7185F13D30074421B /* cell.xib in Resources */,
 				3FA4A3BC185F0AD50074421B /* InfoPlist.strings in Resources */,
 				3FA4A3C4185F0AD50074421B /* Images.xcassets in Resources */,
 			);
@@ -244,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA4A3E5185F11190074421B /* MasterViewController.m in Sources */,
 				3FA4A3C2185F0AD50074421B /* AppDelegate.m in Sources */,
 				3FA4A3E2185F0ED40074421B /* PasswordListViewController.m in Sources */,
 				3FA4A3BE185F0AD50074421B /* main.m in Sources */,
