@@ -19,6 +19,7 @@
 		3FA4A3CD185F0AD50074421B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA4A3B5185F0AD50074421B /* UIKit.framework */; };
 		3FA4A3D5185F0AD50074421B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FA4A3D3185F0AD50074421B /* InfoPlist.strings */; };
 		3FA4A3D7185F0AD50074421B /* KeyChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA4A3D6185F0AD50074421B /* KeyChainTests.m */; };
+		3FA4A3E2185F0ED40074421B /* PasswordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA4A3E1185F0ED40074421B /* PasswordListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		3FA4A3D2185F0AD50074421B /* KeyChainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyChainTests-Info.plist"; sourceTree = "<group>"; };
 		3FA4A3D4185F0AD50074421B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FA4A3D6185F0AD50074421B /* KeyChainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChainTests.m; sourceTree = "<group>"; };
+		3FA4A3E0185F0ED40074421B /* PasswordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordListViewController.h; sourceTree = "<group>"; };
+		3FA4A3E1185F0ED40074421B /* PasswordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				3FA4A3C0185F0AD50074421B /* AppDelegate.h */,
 				3FA4A3C1185F0AD50074421B /* AppDelegate.m */,
+				3FA4A3E0185F0ED40074421B /* PasswordListViewController.h */,
+				3FA4A3E1185F0ED40074421B /* PasswordListViewController.m */,
 				3FA4A3C3185F0AD50074421B /* Images.xcassets */,
 				3FA4A3B8185F0AD50074421B /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA4A3C2185F0AD50074421B /* AppDelegate.m in Sources */,
+				3FA4A3E2185F0ED40074421B /* PasswordListViewController.m in Sources */,
 				3FA4A3BE185F0AD50074421B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +449,7 @@
 				3FA4A3DC185F0AD50074421B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA4A3DD185F0AD50074421B /* Build configuration list for PBXNativeTarget "KeyChainTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +458,7 @@
 				3FA4A3DF185F0AD50074421B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
